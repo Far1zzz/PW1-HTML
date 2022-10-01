@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>Profil</title>
+        <link rel="icon" href="img/palembang.ico">
+    </head>
+    <body>
+        <div>
+            <h2>Objek Wisata</h2>
+            <!--order list-->
+            <ol>
+                <li>Jembatan Ampera</li>
+                <li>Benteng Kuto Besak</li>
+                <li>Jakabaring Sport City</li>
+            </ol>
+            <h2>Makanan Khas</h2>
+            <ol type = "I">
+                <li>Pempek</li>
+                <li>Tekwan</li>
+                <li>Mie Celor</li>
+                <li>Ayam Gorok</li>
+            </ol>
+            <!--Unorder List-->
+            <h2>Fasilitas Kesehatan</h2>
+            <ul>
+                <li>RS. Moh. Hoesin</li>
+                <li>RS. Sriwijaya</li>
+            </ul>
+
+            <h2> Mall </h2>
+                <ul type="square">
+                    <li>Palembang Square</li>
+                    <li>Palembang Indah Mall</li>
+                </ul>
+        </div>
+
+
+        <div>
+            <h2>Daftar Walikota Palembang</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Walikota</th>
+                        <th>Foto</th>
+                        <th>Periode</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Napi</td>
+                        <td><img src="img/Puan_Maharani,_Ketua_DPR_RI.jpg" alt=""  width="20%" align = "center"></td>
+                        <td>
+                            <ul>
+                                <li>2022-2025 </li>
+                                <li>2018-2018 </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Jamiludin</td>
+                        <td><img src="img/IMG_20220115_214051.jpg" alt="" width="20%"></td>
+                        <td>
+                            <ul>
+                                <li>2035-2040 </li>
+                                <li>2040-2045 </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div>
+            <h2>Formulir Pendaftaran Walikota Palembang</h2>
+            <form action="Daftar.html" method ="post">
+                <div>
+                    Nama Lengkap <br>
+                    <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Enter nama lengkap">
+
+                </div>
+                <div>
+                    Tempat Lahir <br>
+                    <input type="text" name="tempat_lahir" id="tempat_lahir">
+                </div>
+                <div>
+                    Tanggal Lahir <br>
+                    <input type="date" name="tanggal_lahir" id="tanggal_lahir">
+                </div>
+                <div>
+                    Jenis Kelamin <br>
+                    <input type="radio" name="jk" id="jkl" value="L"> Laki-Laki
+                    <input type="radio" name="jk" id="jkp" value="p"> Perempuan
+                </div>
+                <div>
+                    Alamat <br>
+                    <textarea name="alamat" id="alamat" cols="20" rows="2"></textarea>
+                </div>
+                <div>
+                    Partai Pengusung <br>
+                    <select name="partai" id="partai">
+                        <option value="PIM">Partai Indonesia Maju</option>
+                        <option value="PISLM"> Partai Indonesia Selangkah Lebih Maju</option>
+                    </select>
+                </div>
+                    <button type="submit"> Daftar </button>
+                    <button type="reset"> Reset </button>
+            </form>
+        </div>
+    </body>
+</html>
